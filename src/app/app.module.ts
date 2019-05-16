@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';// Configure animations
-import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatFormFieldModule, MatInputModule, MatCardModule} from '@angular/material';//Import the component modules
+import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatFormFieldModule, MatInputModule, MatCardModule, MatIconModule} from '@angular/material';//Import the component modules
 
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
@@ -23,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
      MatToolbarModule,
      MatFormFieldModule,
      MatInputModule,
+     MatIconModule,
      MatCardModule,
      FormsModule,
      ReactiveFormsModule,
